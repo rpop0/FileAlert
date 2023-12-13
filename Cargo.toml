@@ -1,0 +1,11 @@
+[package]
+name = "learning"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dirs = "5.0.1"
+kira = "0.8.5"
+toml = "0.8.8"
+serde = { version = "1.0.193", features = ["derive"] }
+lazy_static = "1.4.0"
